@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/buyukyilmaz/lothlorien.svg)](https://jitpack.io/#buyukyilmaz/lothlorien)
+
 ## Setup
 
 Add jitpack.io to settings.gradle.kts

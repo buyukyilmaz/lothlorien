@@ -17,7 +17,7 @@ dependencyResolutionManagement {
 Add dependency to build.gradle.kts
 
 ```gradle
-implementation("com.github.buyukyilmaz:lothlorien:1.0.0")
+implementation("com.github.buyukyilmaz:lothlorien:1.0.1")
 ```
 
 ## AppConfig
@@ -27,10 +27,9 @@ implementation("com.github.buyukyilmaz:lothlorien:1.0.0")
 | compileSdk        | 34     |
 | buildToolsVersion | 34.0.0 |
 | minSdk            | 28     |
-| kotlinVersion     | 1.9.24 |
+| kotlinVersion     | 2.0.0  |
 | gradleVersion     | 8.4.1  |
 | jvmToolchain      | 17     |
-| composeCompiler   | 1.5.14 |
 
 ## Dependencies
 

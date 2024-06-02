@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
     kotlin("android")
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.0"
     id("org.jmailen.kotlinter")
     `maven-publish`
 }
@@ -12,7 +13,6 @@ android {
     defaultConfig.minSdk = 28
     kotlin.jvmToolchain(17)
     buildFeatures.compose = true
-    composeOptions.kotlinCompilerExtensionVersion = "1.5.14"
     buildTypes.getByName("release").isMinifyEnabled = false
     packaging.resources.excludes += "/META-INF/{AL2.0,LGPL2.1}"
 
@@ -40,7 +40,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.glorfindel.lothlorien"
                 artifactId = "lothlorien"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
